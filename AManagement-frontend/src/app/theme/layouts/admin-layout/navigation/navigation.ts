@@ -37,33 +37,75 @@ export const NavigationItems: NavigationItem[] = [
     ]
   },
   {
-    id: 'authentication',
-    title: 'Authentication',
+    id: 'other',
+    title: 'Pages',
     type: 'group',
     icon: 'icon-navigation',
     children: [
-      {
-        id: 'login',
-        title: 'Login',
+        {
+        id: 'tenants',
+        title: 'Tenants',
         type: 'item',
+        url: '/tenants',
         classes: 'nav-item',
-        url: '/login',
-        icon: 'login',
-        target: true,
-        breadcrumbs: false
+        icon: 'user'
       },
       {
-        id: 'register',
-        title: 'Register',
+        id: 'qr',
+        title: 'Qr-Code',
         type: 'item',
+        url: '/qr',
         classes: 'nav-item',
-        url: '/register',
-        icon: 'profile',
-        target: true,
-        breadcrumbs: false
-      }
+        icon: 'profile'
+      },
+      // {
+      //   id: 'sample-page',
+      //   title: 'Sample Page',
+      //   type: 'item',
+      //   url: '/sample-page',
+      //   classes: 'nav-item',
+      //   icon: 'chrome'
+      // },
+      // {
+      //   id: 'document',
+      //   title: 'Document',
+      //   type: 'item',
+      //   classes: 'nav-item',
+      //   url: 'https://codedthemes.gitbook.io/mantis-angular/',
+      //   icon: 'question',
+      //   target: true,
+      //   external: true
+      // }
     ]
   },
+  // {
+  //   id: 'authentication',
+  //   title: 'Authentication',
+  //   type: 'group',
+  //   icon: 'icon-navigation',
+  //   children: [
+  //     {
+  //       id: 'login',
+  //       title: 'Login',
+  //       type: 'item',
+  //       classes: 'nav-item',
+  //       url: '/login',
+  //       icon: 'login',
+  //       target: true,
+  //       breadcrumbs: false
+  //     },
+  //     {
+  //       id: 'register',
+  //       title: 'Register',
+  //       type: 'item',
+  //       classes: 'nav-item',
+  //       url: '/register',
+  //       icon: 'profile',
+  //       target: true,
+  //       breadcrumbs: false
+  //     }
+  //   ]
+  // },
   {
     id: 'utilities',
     title: 'UI Components',
@@ -99,30 +141,5 @@ export const NavigationItems: NavigationItem[] = [
     ]
   },
 
-  {
-    id: 'other',
-    title: 'Other',
-    type: 'group',
-    icon: 'icon-navigation',
-    children: [
-      {
-        id: 'sample-page',
-        title: 'Sample Page',
-        type: 'item',
-        url: '/sample-page',
-        classes: 'nav-item',
-        icon: 'chrome'
-      },
-      {
-        id: 'document',
-        title: 'Document',
-        type: 'item',
-        classes: 'nav-item',
-        url: 'https://codedthemes.gitbook.io/mantis-angular/',
-        icon: 'question',
-        target: true,
-        external: true
-      }
-    ]
-  }
+  
 ];

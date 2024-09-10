@@ -21,6 +21,14 @@ const routes: Routes = [
         loadComponent: () => import('./demo/default/dashboard/dashboard.component').then((c) => c.DefaultComponent)
       },
       {
+        path: 'tenants',
+        loadComponent: () => import('./demo/other/tenants/tenants.component')
+      },
+      {
+        path: 'qr',
+        loadComponent: () => import('./demo/other/qr/qr.component')
+      },
+      {
         path: 'typography',
         loadComponent: () => import('./demo/ui-component/typography/typography.component')
       },
