@@ -58,24 +58,40 @@ export const NavigationItems: NavigationItem[] = [
         classes: 'nav-item',
         icon: 'profile'
       },
-      // {
-      //   id: 'sample-page',
-      //   title: 'Sample Page',
-      //   type: 'item',
-      //   url: '/sample-page',
-      //   classes: 'nav-item',
-      //   icon: 'chrome'
-      // },
-      // {
-      //   id: 'document',
-      //   title: 'Document',
-      //   type: 'item',
-      //   classes: 'nav-item',
-      //   url: 'https://codedthemes.gitbook.io/mantis-angular/',
-      //   icon: 'question',
-      //   target: true,
-      //   external: true
-      // }
+      {
+        id: 'test-file',
+        title: 'test-file',
+        type: 'item',
+        url: '/test-file',
+        classes: 'nav-item',
+        icon: 'profile'
+      },
+      {
+        id: 'test',
+        title: 'test',
+        type: 'item',
+        url: '/test',
+        classes: 'nav-item',
+        icon: 'user'
+      },
+      {
+        id: 'sample-page',
+        title: 'Sample Page',
+        type: 'item',
+        url: '/sample-page',
+        classes: 'nav-item',
+        icon: 'chrome'
+      },
+      {
+        id: 'document',
+        title: 'Document',
+        type: 'item',
+        classes: 'nav-item',
+        url: 'https://codedthemes.gitbook.io/mantis-angular/',
+        icon: 'question',
+        target: true,
+        external: true
+      }
     ]
   },
   // {

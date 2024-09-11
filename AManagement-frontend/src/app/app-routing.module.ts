@@ -39,6 +39,14 @@ const routes: Routes = [
       {
         path: 'sample-page',
         loadComponent: () => import('./demo/other/sample-page/sample-page.component')
+      },
+      {
+        path: 'test-file',
+        loadComponent: () => import('./demo/other/test-file/test-file.component')
+      },
+      {
+        path: 'test',
+        loadComponent: () => import('./demo/other/test/test.component')
       }
     ]
   },
